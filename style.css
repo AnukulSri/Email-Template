@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    /* background-color: #cccccc; */
+}
+
+table {
+    border-spacing: 0;
+}
+
+td {
+    padding: 0;
+}
+
+img {
+    border: 0;
+}
+
+.wrapper {
+    width: 100%;
+    table-layout: fixed;
+    /* background-color: #cccccc; */
+    background-image: url("img/quote-bg.jpg");
+    /* padding-bottom: 50px; */
+}
+
+.main {
+    background-color: #ffffff;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 800px;
+    border-spacing: 0;
+    font-family: sans-serif;
+    color: #171a1b;
+}
+
+.two-column {
+    text-align: center;
+    font-size: 0;
+
+}
+
+.two-column .column {
+    width: 100%;
+    max-width: 300px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+}
+
+.three-column {
+    text-align: center;
+    font-size: 0;
+    padding: 15px 0 25px;
+
+}
+
+.three-column .column {
+    width: 100%;
+    max-width: 200px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+}
+
+.three-column .padding {
+    padding: 15px;
+}
+
+.three-column .content {
+    font-size: 15px;
+    line-height: 20px;
+    padding: 0 5px;
+}
+
+.two-columns.last {
+    padding: 15px 0;
+}
+
+.two-columns .padding {
+    padding: 20px;
+}
+
+.two-columns .content {
+    font-size: 15px;
+    line-height: 20px;
+    text-align: left;
+}
+
+
+.button {
+    background-color: #ffffff;
+    color: #171a1b;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px white;
+    font-weight: bold;
+}
+
+.button-dark {
+    color: #ffffff;
+    background-color: #171a1b;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 8px rgb(66, 65, 65);
+    font-weight: bold;
+}
